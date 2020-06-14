@@ -1,0 +1,17 @@
+[user]
+	name = name
+	email = your@email.com
+	username = username
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[color]
+	ui = auto
+[commit]
+	template = ~/.gitmessage
+[push]
+	default = current
+[url "https://github.com/"]
+	insteadOf = gh:
+[url "https://gist.github.com/"]
+	insteadOf = gist:

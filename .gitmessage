@@ -1,0 +1,30 @@
+#----------------max 50 char--------------------->|
+[TAG] Subject
+
+#[Ticket X][Issue X]
+
+#--------------------------max 72 char--------------------------------->|
+# Explain why this change is being made
+
+
+#Note
+
+
+
+
+
+
+# Tag can be:
+# - feat        (new feature)
+# - fix         (bug fix)
+# - refactor    (refactoring code)
+# - style       (formatting, missing semi colons, etc; no code change)
+# - doc         (changes to documentation)
+# - test        (adding or refactoring tests)
+# - version     (version bump/new release)
+# - dbg         (Changes in debugging code)
+# - license     (Edits regarding licensing)
+# - hack        (Temporary fix to make things move foreward)
+# - WIP         (Work In Progress; for intermediate commits to keep patches
+#                reasonably sized)
+# - default     (changes default options)
