@@ -1,0 +1,69 @@
+# general
+alias c="clear"
+alias e="exit"
+alias please="sudo"
+alias zshconfig="vim ~/.zshrc"
+alias reload="source ~/.zshrc"
+alias mkdir="mkdir -p"
+function mkcd() {mkdir -p $1; cd $1;}
+
+#git
+alias ga="git add"
+alias gaa="git add --all"
+alias gb="git branch"
+alias gbd="git branch -d"
+alias gc="git commit"
+alias gcl="git clone"
+alias gch="git checkout"
+alias gchb="git checkout -b"
+alias gchm="git checkout master"
+alias gchd="git checkout develop"
+alias gd="git diff"
+alias gf="git fetch"
+alias gm="git merge"
+alias gp="git push"
+alias gpl="git pull"
+alias gplm="git pull origin master"
+alias gpld="git pull origin develop"
+alias gr="git remote"
+alias gra="git remote add"
+alias grb="git rebase"
+alias grbm="git rebase master"
+alias grbd="git rebase develop"
+alias grm="git rm"
+alias gs="git status"
+alias gss="git status -s"
+
+#docker
+alias d="docker"
+alias db="docker build"
+alias dr="docker run"
+alias dps="docker ps"
+alias di="docker image"
+
+#kubernetes
+alias k="kubectl"
+alias ka="kubectl apply"
+alias kg="kubectl get"
+alias kgn="kubectl get nodes"
+alias kgd="kubectl get deployments"
+alias kgp="kubectl get pods"
+alias kgsvc="kubectl get service"
+alias krm="kubectl delete"
+
+#laravel
+alias artisan="php artisan"
+alias lvnp="composer create-project --prefer-dist laravel/laravel"
+alias lvnc="php artisan make:controller"
+alias lvnm="php artisan make:model"
+alias lvnmig="php artisan make:migration"
+alias lvns="php artisan make:seed"
+alias lvm="php artisan migrate"
+
+#react
+function new-react-app() {npx create-react-app $1; cd $1;}
+
+#gcc
+aliase gccf="gcc -Wall -Wextra -Werror"
+aliase gccd="gcc -Wall -Wextra -Werror -fsanitize=address"
+
