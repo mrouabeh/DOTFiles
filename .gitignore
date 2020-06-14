@@ -1,0 +1,18 @@
+# dependency
+/node_modules/
+/packages/
+/vendor/
+
+# compiled
+*.o
+*.pyc
+*.class
+
+# Libraries
+*.lib
+*.a
+
+# hidden
+**/.DS_Store
+.env
+
